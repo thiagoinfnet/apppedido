@@ -26,7 +26,6 @@
             <tr>
               <td>${u.id}</td>
               <td>${u.nome}</td>
-              <td>${u.cpf}</td>
               <td>${u.email}</td>
               <td><a class="btn btn-danger btn-sm" href="/usuario/${u.id}/excluir" title="Excluir"><i class="fa-solid fa-trash"></i></a></td>
             </tr>

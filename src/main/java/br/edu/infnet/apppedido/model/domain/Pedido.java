@@ -3,6 +3,8 @@ package br.edu.infnet.apppedido.model.domain;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import br.edu.infnet.apppedido.solicitante.Solicitante;
+
 public class Pedido {
 	private String descricao;
 	private LocalDateTime data;

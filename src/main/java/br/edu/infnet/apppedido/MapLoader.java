@@ -1,10 +1,11 @@
 package br.edu.infnet.apppedido;
 
-import br.edu.infnet.apppedido.model.domain.Solicitante;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
+
+import br.edu.infnet.apppedido.solicitante.Solicitante;
 
 import java.util.HashMap;
 import java.util.Map;

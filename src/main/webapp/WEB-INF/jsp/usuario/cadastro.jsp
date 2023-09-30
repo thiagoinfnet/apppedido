@@ -11,28 +11,23 @@
 <body class="bg-dark text-light">
   <c:import url="/WEB-INF/jsp/menu.jsp"/>
   <div class="container mt-3">
-    <h3>Listagem de usuarios:</h3>
-        <table class="table table-striped table-dark table-hover">
-          <thead class="table-bordered">
-            <tr>
-              <th scope="col">ID</th>
-              <th scope="col">Nome</th>
-              <th scope="col">E-mail</th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-          	<c:forEach var="u" items="${listaUsuarios}">
-            <tr>
-              <td>${u.id}</td>
-              <td>${u.nome}</td>
-              <td>${u.cpf}</td>
-              <td>${u.email}</td>
-              <td><a class="btn btn-danger btn-sm" href="/usuario/${u.id}/excluir" title="Excluir"><i class="fa-solid fa-trash"></i></a></td>
-            </tr>
-            </c:forEach>
-    	</tbody>
-  	</table>
+  	<h3>Cadastramento de Usuários</h3>
+  	<form action="/usuario/incluir" method="post">
+      <div class="form-floating">
+        <input type="text" class="form-control bg-dark text-light" value="Thiago" id="nome" placeholder="Entre com o seu nome" name="nome">
+        <label for="floatingInput">Nome</label>
+      </div>
+      <div class="form-floating">
+        <input type="email" class="form-control bg-dark text-light" value="thiago@example.com" id="floatingInput" placeholder="name@example.com" name="email">
+        <label for="floatingInput">E-mail</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control bg-dark text-light" value="123456" id="pwd" placeholder="Entre com a sua senha" name="senha">
+        <label for="floatingInput">Senha</label>
+      </div>
+      
+      <button type="submit" class="btn btn-secondary">Cadastrar</button>
+  	</form>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

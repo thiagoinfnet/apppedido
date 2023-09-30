@@ -1,6 +1,8 @@
 package br.edu.infnet.apppedido;
 
 import br.edu.infnet.apppedido.model.domain.*;
+import br.edu.infnet.apppedido.solicitante.Solicitante;
+
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.core.annotation.Order;

@@ -1,9 +1,28 @@
-package br.edu.infnet.apppedido.model.domain;
+package br.edu.infnet.apppedido.solicitante;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import br.edu.infnet.apppedido.usuario.Usuario;
+
+@Entity
+@Table(name = "TSolicitante")
 public class Solicitante {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
     private String nome;
     private String cpf;
     private String email;
+    @ManyToOne
+    @JoinColumn(name = "idUsuario")
+    private Usuario usuario;
 
     public Solicitante(String nome, String cpf, String email) {
         this.nome = nome;
@@ -38,5 +57,13 @@ public class Solicitante {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
 	}
 }
