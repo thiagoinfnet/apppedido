@@ -43,7 +43,7 @@
         <ul class="nav navbar-nav navbar-right">
 		  <c:if test="${empty user}">
 		    <li class="nav-item">
-		        <a class="nav-link" href="/usuario/cadastro"><i class="fa-solid fa-user"></i> Sign Up</a>
+		        <a class="nav-link" href="/usuario/cadastro"><i class="fa-solid fa-user-plus"></i> Sign Up</a>
 		    </li>
         	<li class="nav-item">
         		<a class="nav-link" href="/login"><i class="fa-solid fa-right-to-bracket"></i> Log in</a>
