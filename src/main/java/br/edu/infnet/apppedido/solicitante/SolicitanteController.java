@@ -34,15 +34,23 @@ public class SolicitanteController {
     }
     
 	@GetMapping(value = "/solicitante/cadastro")
-	public String telaCadastro() {
+	public String telaCadastro(HttpSession session) {
+    	Usuario usuario = (Usuario) session.getAttribute("user");
+    	
+        if (usuario == null) {
+            return "redirect:/login";
+        }
 
 		return "solicitante/cadastro";
 	}
 
 	@PostMapping(value = "/solicitante/incluir")
-	public String incluir(Solicitante solicitante, @SessionAttribute("user") Usuario usuario) {
-		
-		solicitante.setUsuario(usuario);
+	public String incluir(Solicitante solicitante, HttpSession session) {
+    	Usuario usuario = (Usuario) session.getAttribute("user");
+    	
+        if (usuario == null) {
+            return "redirect:/login";
+        }
 		
 		solicitanteService.incluir(solicitante);
 		

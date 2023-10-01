@@ -24,7 +24,7 @@
             <a class="nav-link <%= currentURL.endsWith("/solicitante/lista") ? "active" : "" %>" aria-current="page" href="/solicitante/lista">Solicitantes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <%= currentURL.endsWith("/produto/lista/lista") ? "active" : "" %>" aria-current="page" href="/produto/lista">Produtos</a>
+            <a class="nav-link <%= currentURL.endsWith("/produto/lista") ? "active" : "" %>" aria-current="page" href="/produto/lista">Produtos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link <%= currentURL.endsWith("/calcado/lista") ? "active" : "" %>" aria-current="page" href="/calcado/lista">Calcados</a>

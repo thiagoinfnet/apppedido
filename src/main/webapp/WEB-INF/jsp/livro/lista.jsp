@@ -2,9 +2,6 @@
 <main class="container mt-3">
   <header style="display: flex; justify-content: space-between;">
     <h3>Listagem de Livros:</h3>
-    <div>
-      <a class="btn btn-secondary" href="/solicitante/cadastro"><i class="fa-solid fa-plus"></i> Novo</a>
-    </div>
   </header>
   <table class="table table-striped table-dark table-hover">
     <thead class="table-bordered">
