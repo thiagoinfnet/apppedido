@@ -5,8 +5,12 @@ import javax.servlet.http.HttpSession;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
+import br.edu.infnet.apppedido.usuario.Usuario;
+
+@SessionAttributes("user")
 @Controller
 public class AppController {
 
@@ -22,7 +26,12 @@ public class AppController {
 	}
 	
 	@GetMapping(value = "/login")
-	public String telaLogin() {
+	public String telaLogin(HttpSession session) {
+    	Usuario usuario = (Usuario) session.getAttribute("user");
+    	
+        if (usuario != null) {
+            return "redirect:/";
+        }
 		return "login";
 	}
 

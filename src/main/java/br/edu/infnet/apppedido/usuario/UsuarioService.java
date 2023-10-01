@@ -5,6 +5,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 
+import static br.edu.infnet.apppedido.util.PasswordEncoder.isPasswordCorrect;;
+
 @Service
 public class UsuarioService {
 	
@@ -30,7 +32,7 @@ public class UsuarioService {
 		Usuario user = usuarioRepository.findByEmail(email);
 		
 		if(user != null) {
-			if(senha.equalsIgnoreCase(user.getSenha())) {
+			if(isPasswordCorrect(senha, user.getSenha())) {
 				return user;
 			}			
 		}

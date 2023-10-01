@@ -26,7 +26,7 @@ public class UsuarioController {
 		if(user != null) {
 			model.addAttribute("user",user);
 			
-			return "home";
+			return "redirect:/";
 		}
 		return "redirect:/login";
 	}

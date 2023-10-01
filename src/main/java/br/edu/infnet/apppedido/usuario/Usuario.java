@@ -13,6 +13,7 @@ import javax.persistence.Table;
 import br.edu.infnet.apppedido.pedido.Pedido;
 import br.edu.infnet.apppedido.produto.Produto;
 import br.edu.infnet.apppedido.solicitante.Solicitante;
+import static br.edu.infnet.apppedido.util.PasswordEncoder.encodePasswordSHA256;
 
 @Entity
 @Table(name = "TUsuario")
@@ -46,7 +47,7 @@ public class Usuario {
 		super();
 		this.nome = nome;
 		this.email = email;
-		this.senha = senha;
+		this.senha = encriptaSenha(senha);
 	}
 	
 	public Integer getId() {
@@ -81,7 +82,11 @@ public class Usuario {
 		return senha;
 	}
 	public void setSenha(String senha) {
-		this.senha = senha;
+		this.senha = encriptaSenha(senha);
+	}
+	
+	public String encriptaSenha(String senha) {
+		return encodePasswordSHA256(senha);
 	}
 
 	public List<Solicitante> getSolicitante() {
