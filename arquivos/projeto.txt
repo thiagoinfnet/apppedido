@@ -1,0 +1,25 @@
+P;AppPedido;Projeto de Gestão de Pedidos
+C;Pedido
+A;descricao;String;Detalhamento do pedido
+A;data;LocalDateTime;Data de realização do pedido
+A;web;boolean;Indicativo se o pedido foi realizado presencialmente ou pela web
+C;Solicitante
+A;nome;String;Nome do solicitante
+A;email;String;E-mail do solicitante
+A;cpf;String;CPF do solicitante
+C;Produto
+A;nome;String;Nome do produto
+A;valor;float;Valor do produto
+A;codigo;int;Código do produto
+C;Calcado
+A;tamanho;integer;Tamanho do calçado
+A;cor;String;Cor do calçado
+A;tipo;String;Tipo do calçado
+C;Livro
+A;genero;String;Gênero do livro
+A;autor;String;Autor do livro
+A;editora;String;Editora do Livro
+C;Roupa
+A;sexo;String;Sexo/Gênero da roupa
+A;categoria;String;Categoria da roupa
+A;tamanho;String;Tamanho da roupa

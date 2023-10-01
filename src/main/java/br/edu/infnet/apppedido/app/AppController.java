@@ -17,8 +17,8 @@ public class AppController {
 	}
 
 	@GetMapping(value = "/")
-	public String telaHome() {
-		return "home";
+	public String telaHome(Model model) {
+		return telaSobre(model);
 	}
 	
 	@GetMapping(value = "/login")
