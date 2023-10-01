@@ -1,7 +1,7 @@
 <%@include file="../header.jsp" %>
 <main class="container mt-3">
   <header style="display: flex; justify-content: space-between;">
-    <h3>Listagem de Produtos:</h3>
+    <h3>Listagem de Calçados:</h3>
     <div>
       <a class="btn btn-secondary" href="/solicitante/cadastro"><i class="fa-solid fa-plus"></i> Novo</a>
     </div>
@@ -13,19 +13,23 @@
         <th scope="col">Nome</th>
         <th scope="col">Valor</th>
         <th scope="col">Código</th>
-        <th scope="col">Pedidos</th>
+        <th scope="col">Tamanho</th>
+        <th scope="col">Cor</th>
+        <th scope="col">Tipo</th>
         <th scope="col"></th>
       </tr>
     </thead>
     <tbody>
-      <c:forEach var="p" items="${listaProdutos}">
+      <c:forEach var="c" items="${listaCalcados}">
         <tr>
-          <td>${p.id}</td>
-          <td>${p.nome}</td>
-          <td>${p.valor}</td>
-          <td>${p.codigo}</td>
-          <td>${p.pedidos.size()}</td>
-          <td><a class="btn btn-danger btn-sm" href="/produto/${p.id}/excluir" title="Excluir"><i
+          <td>${c.id}</td>
+          <td>${c.nome}</td>
+          <td>${c.valor}</td>
+          <td>${c.codigo}</td>
+          <td>${c.tamanho}</td>
+          <td>${c.cor}</td>
+          <td>${c.tipo}</td>
+          <td><a class="btn btn-danger btn-sm" href="/calcado/${c.id}/excluir" title="Excluir"><i
                 class="fa-solid fa-trash"></i></a></td>
         </tr>
       </c:forEach>
