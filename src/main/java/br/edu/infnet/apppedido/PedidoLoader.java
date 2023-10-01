@@ -22,8 +22,8 @@ import br.edu.infnet.apppedido.roupa.Roupa;
 import br.edu.infnet.apppedido.solicitante.Solicitante;
 import br.edu.infnet.apppedido.usuario.Usuario;
 
-@Order(6)
-@Component
+//@Order(6)
+//@Component
 public class PedidoLoader implements ApplicationRunner {
 	
 	@Autowired

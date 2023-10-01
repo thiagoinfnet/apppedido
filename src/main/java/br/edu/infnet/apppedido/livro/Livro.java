@@ -13,6 +13,10 @@ public class Livro extends Produto {
 	private String autor;
 	private String editora;
 	
+	public Livro() {
+		
+	}
+	
 	public Livro(Integer id) {
 		super(id);
 	}

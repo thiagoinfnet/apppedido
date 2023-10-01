@@ -13,6 +13,10 @@ public class Roupa extends Produto {
 	private String categoria;
 	private String tamanho;
 	
+	public Roupa() {
+		
+	}
+	
 	public Roupa(Integer id) {
 		super(id);
 	}

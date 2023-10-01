@@ -24,16 +24,13 @@
             <a class="nav-link <%= currentURL.endsWith("/solicitante/lista") ? "active" : "" %>" aria-current="page" href="/solicitante/lista">Solicitantes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Produtos</a>
+            <a class="nav-link <%= currentURL.endsWith("/produto/lista/lista") ? "active" : "" %>" aria-current="page" href="/produto/lista">Produtos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Livros</a>
+            <a class="nav-link <%= currentURL.endsWith("/livro/lista") ? "active" : "" %>" aria-current="page" href="/livro/lista">Livros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Roupas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Eletrônicos</a>
+            <a class="nav-link <%= currentURL.endsWith("/roupa/lista") ? "active" : "" %>" aria-current="page" href="/roupa/lista">Roupas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Pedidos</a>

@@ -1,10 +1,18 @@
 package br.edu.infnet.apppedido.usuario;
 
-import javax.persistence.*;
-
-import br.edu.infnet.apppedido.solicitante.Solicitante;
-
 import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import br.edu.infnet.apppedido.pedido.Pedido;
+import br.edu.infnet.apppedido.produto.Produto;
+import br.edu.infnet.apppedido.solicitante.Solicitante;
 
 @Entity
 @Table(name = "TUsuario")
@@ -19,6 +27,12 @@ public class Usuario {
 	@OneToMany
 	@JoinColumn(name = "idUsuario")
 	private List<Solicitante> solicitantes;
+	@OneToMany
+	@JoinColumn(name = "idUsuario")
+	private List<Produto> produtos;
+	@OneToMany
+	@JoinColumn(name = "idUsuario")
+	private List<Pedido> pedidos;
 	
 	public Usuario() {
 		
