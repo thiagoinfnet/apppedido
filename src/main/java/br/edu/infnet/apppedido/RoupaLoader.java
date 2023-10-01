@@ -23,7 +23,7 @@ public class RoupaLoader implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 
-		FileReader file = new FileReader("arquivos/calcado.txt");
+		FileReader file = new FileReader("arquivos/roupa.txt");
 		BufferedReader leitura = new BufferedReader(file);
 		
 		String linha = leitura.readLine();
