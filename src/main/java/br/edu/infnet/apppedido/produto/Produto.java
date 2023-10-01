@@ -1,6 +1,5 @@
 package br.edu.infnet.apppedido.produto;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;

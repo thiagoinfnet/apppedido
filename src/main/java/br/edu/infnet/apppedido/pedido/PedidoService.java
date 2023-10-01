@@ -2,15 +2,12 @@ package br.edu.infnet.apppedido.pedido;
 
 import java.util.Collection;
 
-import javax.transaction.Transactional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.edu.infnet.apppedido.usuario.Usuario;
 
 @Service
-@Transactional
 public class PedidoService {
 	
 	@Autowired
