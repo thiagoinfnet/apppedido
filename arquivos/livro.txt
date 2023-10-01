@@ -1,0 +1,29 @@
+ Senhor dos Anéis;29.99;2001;Fantasia;J.R.R. Tolkien;Editora Martins Fontes
+Harry Potter e a Pedra Filosofal;19.99;2002;Fantasia;J.K. Rowling;Editora Rocco
+Cem Anos de Solidão;24.99;2003;Realismo Mágico;Gabriel García Márquez;Editora Record
+Dom Quixote;34.99;2004;Romance;Miguel de Cervantes;Editora Cosac Naify
+1984;14.99;2005;Ficção Científica;George Orwell;Editora Companhia das Letras
+Crime e Castigo;29.99;2006;Romance;Fiódor Dostoiévski;Editora Saraiva
+A Metamorfose;12.99;2007;Ficção;Franz Kafka;Editora L&PM
+A Culpa é das Estrelas;19.99;2008;Romance;John Green;Editora Intrínseca
+O Hobbit;24.99;2009;Fantasia;J.R.R. Tolkien;Editora WMF Martins Fontes
+O Pequeno Príncipe;9.99;2010;Infantil;Antoine de Saint-Exupéry;Editora Agir
+O Alquimista;16.99;2011;Autoajuda;Paulo Coelho;Editora Rocco
+A Revolução dos Bichos;14.99;2012;Ficção;George Orwell;Editora Companhia das Letras
+Percy Jackson e o Ladrão de Raios;19.99;2013;Fantasia;Rick Riordan;Editora Intrínseca
+O Código Da Vinci;24.99;2014;Mistério;Dan Brown;Editora Arqueiro
+A Menina que Roubava Livros;17.99;2015;Drama;Markus Zusak;Editora Intrínseca
+Os Miseráveis;29.99;2016;Romance;Victor Hugo;Editora Cosac Naify
+O Silmarillion;21.99;2017;Fantasia;J.R.R. Tolkien;Editora Martins Fontes
+A Bíblia Sagrada;0.00;2018;Religião;Vários Autores;Editora Ave-Maria
+O Diário de Anne Frank;12.99;2019;Autobiografia;Anne Frank;Editora Record
+O Nome do Vento;26.99;2020;Fantasia;Patrick Rothfuss;Editora Arqueiro
+A Torre Negra;22.99;2021;Fantasia;Stephen King;Editora Suma
+Para Todos os Garotos que Já Amei;15.99;2022;Romance;Jenny Han;Editora Intrínseca
+O Ladrão de Raios;19.99;2023;Fantasia;Rick Riordan;Editora Intrínseca
+O Sol é para Todos;14.99;2024;Romance;Harper Lee;Editora José Olympio
+A Dança dos Dragões;31.99;2025;Fantasia;George R.R. Martin;Editora Leya
+Maus;16.99;2026;Histórico;Art Spiegelman;Editora Companhia das Letras
+O Menino do Pijama Listrado;12.99;2027;Drama;John Boyne;Editora Cia das Letras
+A Sombra do Vento;18.99;2028;Mistério;Carlos Ruiz Zafón;Editora Suma
+Um Conto de Duas Cidades;14.99;2029;Clássico;Charles Dickens;Editora Zahar

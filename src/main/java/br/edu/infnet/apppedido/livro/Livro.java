@@ -1,12 +1,21 @@
 package br.edu.infnet.apppedido.livro;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 import br.edu.infnet.apppedido.produto.Produto;
 
+@Entity
+@Table(name = "TLivro")
 public class Livro extends Produto {
 
 	private String genero;
 	private String autor;
 	private String editora;
+	
+	public Livro(Integer id) {
+		super(id);
+	}
 	
 	public Livro(String nome, float valor, int codigo, String genero, String autor, String editora) {
 		super(nome, valor, codigo);

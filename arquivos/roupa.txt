@@ -1,0 +1,30 @@
+Camiseta Masculina;19.99;3001;Masculino;Camisetas;M
+Blusa Feminina;24.99;3002;Feminino;Blusas;P
+Calça Jeans;29.99;3003;Unissex;Calças;36
+Shorts Esportivo;14.99;3004;Unissex;Shorts;M
+Vestido de Festa;49.99;3005;Feminino;Vestidos;G
+Camisa Social;34.99;3006;Masculino;Camisas;42
+Jaqueta de Couro;54.99;3007;Unissex;Jaquetas;38
+Saia Midi;22.99;3008;Feminino;Saias;M
+Bermuda Jeans;19.99;3009;Unissex;Bermudas;38
+Sapato Social;39.99;3010;Masculino;Sapatos;40
+Tênis Esportivo;29.99;3011;Unissex;Tênis;39
+Meia Casual;4.99;3012;Unissex;Meias;Único
+Chinelo de Praia;9.99;3013;Unissex;Chinelos;41/42
+Cueca Boxer;7.99;3014;Masculino;Cuecas;M
+Biquíni;16.99;3015;Feminino;Biquínis;P
+Maiô;19.99;3016;Feminino;Maiôs;M
+Calça Legging;12.99;3017;Feminino;Calças;P
+Moletom;24.99;3018;Unissex;Moletons;G
+Vestido de Verão;29.99;3019;Feminino;Vestidos;P
+Camiseta Infantil;9.99;3020;Infantil;Camisetas;4
+Blusa de Inverno;19.99;3021;Feminino;Blusas;G
+Gravata;8.99;3022;Masculino;Gravatas;Único
+Lenço;6.99;3023;Unissex;Lenços;Único
+Sapato de Salto Alto;39.99;3024;Feminino;Sapatos;37
+Sandália Rasteira;14.99;3025;Feminino;Sandálias;39
+Regata Masculina;12.99;3026;Masculino;Regatas;M
+Casaco de Lã;29.99;3027;Unissex;Casacos;M
+Vestido de Noiva;99.99;3028;Feminino;Vestidos;G
+Camisa Polo;24.99;3029;Masculino;Camisas;P
+Touca de Inverno;4.99;3030;Unissex;Toucas;Único
