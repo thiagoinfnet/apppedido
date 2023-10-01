@@ -1,30 +1,30 @@
-Tênis Esportivo;129.99;1001;42;Azul;Esportivo
-Sapato Social;149.99;1002;40;Preto;Social
-Bota de Trilha;199.99;1003;38;Verde;Trilha
-Chinelo de Praia;19.99;1004;43;Amarelo;Chinelo
-Sapatilha;59.99;1005;37;Vermelho;Casual
-Tênis de Corrida;139.99;1006;39;Rosa;Esportivo
-Sandália Rasteira;29.99;1007;36;Marrom;Casual
-Bota de Couro;179.99;1008;41;Preto;Casual
-Chuteira;89.99;1009;40;Laranja;Esportivo
-Sapato de Salto Alto;169.99;1010;37;Dourado;Festa
-Chinelo Slide;24.99;1011;38;Roxo;Casual
-Tênis Cano Alto;129.99;1012;39;Cinza;Casual
-Sapatênis;99.99;1013;41;Azul Marinho;Casual
-Bota de Montaria;149.99;1014;37;Marrom;Casual
-Chinelo de Dedo;14.99;1015;44;Verde;Chinelo
-Sapato Oxford;139.99;1016;38;Bege;Casual
-Tênis de Basquete;179.99;1017;42;Preto;Esportivo
-Sandália Anabela;79.99;1018;40;Vermelho;Casual
-Chuteira de Campo;79.99;1019;39;Amarelo;Esportivo
-Sapato Mocassim;69.99;1020;41;Azul;Casual
-Espadrille;59.99;1021;36;Branco;Casual
-Bota de Neve;219.99;1022;38;Roxo;Inverno
-Chinelo Havaianas;19.99;1023;43;Verde;Chinelo
-Tênis All-Star;89.99;1024;39;Preto;Casual
-Sapato de Noiva;199.99;1025;37;Branco;Festa
-Chuteira de Futsal;69.99;1026;40;Azul;Esportivo
-Sapato Dockside;49.99;1027;42;Marrom;Casual
-Tênis Slip-On;59.99;1028;38;Cinza;Casual
-Sapatilha de Ballet;34.99;1029;36;Rosa;Casual
-Sandália Gladiadora;44.99;1030;37;Marrom;Casual
+Tênis Esportivo;129.99;1001;42;Azul;Esportivo;4
+Sapato Social;149.99;1002;40;Preto;Social;3
+Bota de Trilha;199.99;1003;38;Verde;Trilha;1
+Chinelo de Praia;19.99;1004;43;Amarelo;Chinelo;2
+Sapatilha;59.99;1005;37;Vermelho;Casual;5
+Tênis de Corrida;139.99;1006;39;Rosa;Esportivo;2
+Sandália Rasteira;29.99;1007;36;Marrom;Casual;4
+Bota de Couro;179.99;1008;41;Preto;Casual;5
+Chuteira;89.99;1009;40;Laranja;Esportivo;1
+Sapato de Salto Alto;169.99;1010;37;Dourado;Festa;3
+Chinelo Slide;24.99;1011;38;Roxo;Casual;1
+Tênis Cano Alto;129.99;1012;39;Cinza;Casual;2
+Sapatênis;99.99;1013;41;Azul Marinho;Casual;3
+Bota de Montaria;149.99;1014;37;Marrom;Casual;4
+Chinelo de Dedo;14.99;1015;44;Verde;Chinelo;5
+Sapato Oxford;139.99;1016;38;Bege;Casual;2
+Tênis de Basquete;179.99;1017;42;Preto;Esportivo;3
+Sandália Anabela;79.99;1018;40;Vermelho;Casual;4
+Chuteira de Campo;79.99;1019;39;Amarelo;Esportivo;5
+Sapato Mocassim;69.99;1020;41;Azul;Casual;1
+Espadrille;59.99;1021;36;Branco;Casual;2
+Bota de Neve;219.99;1022;38;Roxo;Inverno;3
+Chinelo Havaianas;19.99;1023;43;Verde;Chinelo;4
+Tênis All-Star;89.99;1024;39;Preto;Casual;5
+Sapato de Noiva;199.99;1025;37;Branco;Festa;1
+Chuteira de Futsal;69.99;1026;40;Azul;Esportivo;2
+Sapato Dockside;49.99;1027;42;Marrom;Casual;3
+Tênis Slip-On;59.99;1028;38;Cinza;Casual;4
+Sapatilha de Ballet;34.99;1029;36;Rosa;Casual;5
+Sandália Gladiadora;44.99;1030;37;Marrom;Casual;1

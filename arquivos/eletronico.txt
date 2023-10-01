@@ -1,3 +1,0 @@
-Laptop Nitro;5000.00;564131;Windows;Acer;2.00
-Galaxy S20;1500.00;564131;Android;Samsung;0.3
-iMac;25000.00;564131;Macintosh;Apple;4.50
