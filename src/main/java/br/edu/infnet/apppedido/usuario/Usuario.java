@@ -24,6 +24,10 @@ public class Usuario {
 		
 	}
 	
+	public Usuario(Integer id) {
+		this.id = id;
+	}
+	
 	public Usuario(String nome, String email, String senha) {
 		super();
 		this.nome = nome;

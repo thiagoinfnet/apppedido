@@ -1,4 +1,4 @@
-package br.edu.infnet.apppedido.model.app;
+package br.edu.infnet.apppedido.app;
 
 import java.util.List;
 

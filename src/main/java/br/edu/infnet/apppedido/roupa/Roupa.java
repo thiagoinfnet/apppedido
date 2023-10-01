@@ -1,4 +1,6 @@
-package br.edu.infnet.apppedido.model.domain;
+package br.edu.infnet.apppedido.roupa;
+
+import br.edu.infnet.apppedido.produto.Produto;
 
 public class Roupa extends Produto {
 	

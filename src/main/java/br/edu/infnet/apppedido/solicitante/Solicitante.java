@@ -13,27 +13,43 @@ import br.edu.infnet.apppedido.usuario.Usuario;
 @Entity
 @Table(name = "TSolicitante")
 public class Solicitante {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-    private String nome;
-    private String cpf;
-    private String email;
-    @ManyToOne
-    @JoinColumn(name = "idUsuario")
-    private Usuario usuario;
+	private String nome;
+	private String cpf;
+	private String email;
+	@ManyToOne
+	@JoinColumn(name = "idUsuario")
+	private Usuario usuario;
+	
+	public Solicitante() {
 
-    public Solicitante(String nome, String cpf, String email) {
-        this.nome = nome;
-        this.cpf = cpf;
-        this.email = email;
-    }
+	}
+	
+	public Solicitante(Integer id) {
+		this.id = id;
+	}
 
-    @Override
-    public String toString() {
-        return String.format("%s;%s;%s", nome, cpf, email);
-    }
+	public Solicitante(String nome, String cpf, String email) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.email = email;
+	}
+	
+	@Override
+	public String toString() {
+		return String.format("%s;%s;%s", nome, cpf, email);
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
 	public String getNome() {
 		return nome;

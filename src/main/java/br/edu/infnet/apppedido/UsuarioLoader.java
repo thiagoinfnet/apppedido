@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import br.edu.infnet.apppedido.usuario.Usuario;
 import br.edu.infnet.apppedido.usuario.UsuarioService;
 
-@Order(4)
+@Order(1)
 @Component
 public class UsuarioLoader implements ApplicationRunner {
 	

@@ -1,8 +1,9 @@
-package br.edu.infnet.apppedido.model.domain;
+package br.edu.infnet.apppedido.pedido;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
+import br.edu.infnet.apppedido.produto.Produto;
 import br.edu.infnet.apppedido.solicitante.Solicitante;
 
 public class Pedido {

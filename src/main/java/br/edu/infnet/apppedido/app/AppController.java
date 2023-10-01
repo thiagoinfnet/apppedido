@@ -1,4 +1,4 @@
-package br.edu.infnet.apppedido.controller;
+package br.edu.infnet.apppedido.app;
 
 import javax.servlet.http.HttpSession;
 
@@ -6,8 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.support.SessionStatus;
-
-import br.edu.infnet.apppedido.model.app.Projeto;
 
 @Controller
 public class AppController {

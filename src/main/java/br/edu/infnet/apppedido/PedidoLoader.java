@@ -1,15 +1,18 @@
 package br.edu.infnet.apppedido;
 
-import br.edu.infnet.apppedido.model.domain.*;
-import br.edu.infnet.apppedido.solicitante.Solicitante;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.List;
+import br.edu.infnet.apppedido.livro.Livro;
+import br.edu.infnet.apppedido.pedido.Pedido;
+import br.edu.infnet.apppedido.produto.Produto;
+import br.edu.infnet.apppedido.roupa.Roupa;
+import br.edu.infnet.apppedido.solicitante.Solicitante;
 
 @Order(5)
 @Component
@@ -22,7 +25,7 @@ public class PedidoLoader implements ApplicationRunner {
 
 		List<Produto> listaProdutos = new ArrayList<>();
 
-		listaProdutos.add(new Eletronico("Laptop Nitro", 5000.00F, 564131, "Windows", "Acer", 2.0F));
+//		listaProdutos.add(new Eletronico("Laptop Nitro", 5000.00F, 564131, "Windows", "Acer", 2.0F));
 		listaProdutos.add(new Livro("Maps of Meaning", 100.00F, 32465, "Psicologia", "Jordan B. Peterson", "Routledge"));
 		listaProdutos.add(new Roupa("Biquini", 50.00F, 540650, "Feminino", "Banho", "P"));
 
