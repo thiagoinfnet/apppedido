@@ -2,10 +2,8 @@ package br.edu.infnet.apppedido;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -22,8 +20,8 @@ import br.edu.infnet.apppedido.roupa.Roupa;
 import br.edu.infnet.apppedido.solicitante.Solicitante;
 import br.edu.infnet.apppedido.usuario.Usuario;
 
-//@Order(6)
-//@Component
+@Order(6)
+@Component
 public class PedidoLoader implements ApplicationRunner {
 	
 	@Autowired
@@ -32,9 +30,7 @@ public class PedidoLoader implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		
-		Map<LocalDateTime, Pedido> mapaPedido = new HashMap<LocalDateTime, Pedido>();
-		
-		FileReader file = new FileReader("arquivos/pedidoSolicitante.txt");
+		FileReader file = new FileReader("arquivos/pedido.txt");
 		BufferedReader leitura = new BufferedReader(file);
 		
 		String linha = leitura.readLine();
@@ -54,25 +50,25 @@ public class PedidoLoader implements ApplicationRunner {
 						new Solicitante(Integer.valueOf(campos[2])),
 						new ArrayList<Produto>(),
 						new Usuario(1)
-					);				
-
-				mapaPedido.put(pedido.getData(), pedido);
+					);
+				
+				pedido = pedidoService.incluir(pedido);
 
 				break;
 
 			case "C":				
 				pedido.getProdutos().add(new Calcado(Integer.valueOf(campos[1])));
-				
+				pedidoService.incluir(pedido);
 				break;
 
 			case "L":
 				pedido.getProdutos().add(new Livro(Integer.valueOf(campos[1])));
-				
+				pedidoService.incluir(pedido);
 				break;
 
 			case "R":			
 				pedido.getProdutos().add(new Roupa(Integer.valueOf(campos[1])));
-
+				pedidoService.incluir(pedido);
 				break;
 
 			default:
@@ -82,11 +78,6 @@ public class PedidoLoader implements ApplicationRunner {
 			linha = leitura.readLine();
 		}
 
-		for(Pedido p : mapaPedido.values()) {
-			pedidoService.incluir(p);
-			System.out.println("[Pedido] Inclusão realizada com sucesso: " + p);			
-		}
-		
 		for(Pedido p : pedidoService.obterLista()) {
 			System.out.println("[Pedido] Inclusão realizada com sucesso: " + p);			
 		}

@@ -40,7 +40,7 @@ public class CalcadoLoader implements ApplicationRunner {
 					Integer.valueOf(campos[3]), 
 					campos[4], 
 					campos[5]
-				);	
+				);
 			
 			calcado.setUsuario(new Usuario(Integer.valueOf(campos[6])));
 

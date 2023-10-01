@@ -1,8 +1,10 @@
 package br.edu.infnet.apppedido.produto;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -29,7 +31,7 @@ public abstract class Produto {
 	@ManyToOne
 	@JoinColumn(name = "idUsuario")
 	private Usuario usuario;
-	@ManyToMany(mappedBy = "produtos")
+	@ManyToMany(mappedBy = "produtos", fetch = FetchType.EAGER)
 	private List<Pedido> pedidos;
 	
 	public Produto() {

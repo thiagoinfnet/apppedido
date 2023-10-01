@@ -36,7 +36,7 @@
             <a class="nav-link <%= currentURL.endsWith("/roupa/lista") ? "active" : "" %>" aria-current="page" href="/roupa/lista">Roupas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Pedidos</a>
+            <a class="nav-link <%= currentURL.endsWith("/pedido/lista") ? "active" : "" %>" aria-current="page" href="/pedido/lista">Pedidos</a>
           </li>
           </c:if>
         </ul>
